@@ -2,10 +2,10 @@ import { type SiteDataProps } from "../types/configDataTypes";
 
 // Update this file with your site specific information
 const siteData: SiteDataProps = {
-	name: "OptiML Solutions",
+	name: "OptiML",
 	// Your website's title and description (meta fields)
 	title:
-		"OptiML Solutions",
+		"OptiML",
 	description:
 		"Your partner for intelligent optimization and machine learning solutions.",
 
