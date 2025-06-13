@@ -11,7 +11,8 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://optimlsolutions.com",
+	site: 'https://optimlsolutions.github.io/optiml-website/',
+	base: '/optiml-website/',
 	adapter: netlify({
 		imageCDN: false,
 	}),
