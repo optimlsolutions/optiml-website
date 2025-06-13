@@ -2,24 +2,24 @@ import { type SiteDataProps } from "../types/configDataTypes";
 
 // Update this file with your site specific information
 const siteData: SiteDataProps = {
-	name: "OptiML",
+	name: "OptiML Solutions",
 	// Your website's title and description (meta fields)
 	title:
-		"OptiML",
+		"OptiML Solutions",
 	description:
-		"Your AI-powered partner for intelligent optimization and machine learning solutions.",
+		"Your partner for intelligent optimization and machine learning solutions.",
 
 	// Your information for blog post purposes
 	author: {
-		name: "Cosmic Themes",
-		email: "creator@cosmicthemes.com",
-		twitter: "Cosmic_Themes",
+		name: "OptiML Solutions",
+		email: "info@optimlsolutions.com",
+		twitter: "",
 	},
 
 	// default image for meta tags if the page doesn't have an image already
 	defaultImage: {
 		src: "/images/cosmic-themes-logo.png",
-		alt: "Cosmic Themes logo",
+		alt: "OptiML Solutions",
 	},
 };
 

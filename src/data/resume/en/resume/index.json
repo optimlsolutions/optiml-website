@@ -131,7 +131,7 @@
 			"link": "https://www.gurobi.com"
 		},
 		{
-			"name": "Apache Spark",
+			"name": "Spark",
 			"category": "Data & Cloud",
 			"image": "./index/tools/5/image.png",
 			"link": "https://spark.apache.org"
@@ -221,7 +221,7 @@
 			"link": "https://scikit-learn.org"		
 		},
 		{
-			"name": "HiGHs",
+			"name": "HiGHS",
 			"category": "Optimization",
 			"image": "./index/tools/20/image.png",
 			"link": "https://highs.dev"
