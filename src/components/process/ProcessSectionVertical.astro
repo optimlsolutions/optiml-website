@@ -1,0 +1,77 @@
+---
+import VerticalProcessStep from "./ProcessStepVertical.astro";
+
+interface VerticalProcessStepProps {
+    title: string;
+    description: string;
+    icon: string;
+}
+
+const verticalProcessSteps: VerticalProcessStepProps[] = [
+  {
+    title: "Discovery & Scoping",
+    description:
+      "Engage with stakeholders to define the decision challenge, key objectives, KPIs, and constraints. Clarify success criteria and align on scope and feasibility",
+    icon: "tabler/search",
+  },
+  {
+    title: "Data Audit & Modeling Framework",
+    description:
+      "Assess data readiness and design a hybrid modeling framework — combining machine learning, mathematical optimization, and business rules to support decisions under uncertainty",
+    icon: "tabler/bulb",
+  },
+  {
+    title: "Model Development & Prototyping",
+    description:
+      "Develop predictive models and formulate optimization algorithms tailored to the problem structure. Prototype solutions in a controlled environment for rapid iteration",
+    icon: "tabler/bolt",
+  },
+  {
+    title: "Validation & Decision Simulation",
+    description:
+      "Validate model performance, run scenario analyses, and simulate decisions to test trade-offs, sensitivity, and business impact before deployment",
+    icon: "tabler/check",
+  },
+  {
+    title: "Deployment & Enablement",
+    description:
+      "Integrate models into production systems or planning workflows. Provide technical documentation, stakeholder training, and post-deployment support for sustained impact",
+    icon: "tabler/rocket",
+  },
+];
+---
+
+<section class="bg-background text-foreground py-16 md:py-32">
+    <div class="site-container mx-auto px-4">
+        <div class="flex flex-col items-center">
+            <div class="max-w-4xl text-center mb-16">
+                <h2 class="h2 mb-4">Our Process</h2>
+                <p class="description text-xl">
+                    From first conversation to final launch, here's how we ensure your project succeeds
+                </p>
+            </div>
+
+            <div id="process-vertical" class="relative space-y-12 max-w-3xl w-full">
+                <!-- Vertical Line -->
+                <div
+                    class="from-primary/30 to-primary/5 absolute top-0 bottom-0 left-8 w-px bg-gradient-to-b"
+                >
+                </div>
+
+                {
+                    verticalProcessSteps.map((step, index) => (
+                        <VerticalProcessStep
+                            number={index + 1}
+                            title={step.title}
+                            description={step.description}
+                            icon={step.icon}
+                            data-aos="fade-up"
+                            data-aos-delay={index * 0.2}
+                            data-aos-trigger="#process-vertical"
+                        />
+                    ))
+                }
+            </div>
+        </div>
+    </div>
+</section>

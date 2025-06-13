@@ -1,0 +1,102 @@
+---
+import ContactSection from "@components/contact/ContactSectionSimple.astro";
+import PricingOnePrice from "@components/pricing/PricingOnePrice.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { getLocaleFromUrl } from "@js/localeUtils";
+import { Icon } from "astro-icon/components";
+
+const currLocale = getLocaleFromUrl(Astro.url);
+---
+
+<BaseLayout
+    title="Our Services"
+    description="Explore our data science and optimization consulting services. Choose between project-based consulting or embedded collaboration."
+>
+    <main>
+        <PricingOnePrice />
+        
+<section class="bg-background text-foreground py-16 md:py-24">
+  <div class="site-container">
+    <div class="mx-auto max-w-4xl">
+      <div class="text-center mb-12">
+        <h2 class="h2 mb-6">How We Work with You</h2>
+        <p class="description text-lg leading-relaxed">
+          We help organizations turn complex decision problems into clear, high-leverage models. Our work spans applied machine learning, mathematical optimization, and decision system design — with a focus on direct business impact.  
+          Whether scoped as a one-off delivery or an embedded collaboration, every engagement is grounded in analytical rigor and end-to-end ownership: from framing the question and selecting the right modeling approach, to implementation, testing, and deployment.  
+          We specialize in hard problems: constrained planning, resource allocation, forecasting under uncertainty, uplift modeling, targeting logic, and automated trade-off systems — always with a focus on usability and measurable outcomes.
+        </p>
+      </div>
+
+      <div class="grid gap-12 md:gap-16">
+        <!-- Project-Based Consulting -->
+        <div class="relative">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="bg-primary/10 text-primary flex h-12 w-12 items-center justify-center rounded-xl">
+                <Icon name="tabler/rocket" class="h-6 w-6" />
+              </div>
+            </div>
+            <div class="flex-1">
+              <h3 class="text-primary mb-4 text-2xl font-semibold">Project-Based Consulting</h3>
+              <p class="description mb-4 text-base font-medium opacity-80">
+                When you have a specific question and need a clear, well-scoped solution — fast.
+              </p>
+              <p class="description mb-4 leading-relaxed">
+                We take on focused projects where business questions can be turned into concrete modeling tasks: an optimizer for annual promotions, an uplift model to improve campaign targeting, a scenario planner for constrained budgets, or a simulator to test strategic options. We handle the full stack — from mathematical formulation and model implementation to testing, simulation, and deployment.
+              </p>
+              <p class="description leading-relaxed">
+                These engagements are ideal when you need:
+                </p>
+                <ul class="description list-disc list-inside mt-4 space-y-2">
+                <li>To quickly test and validate a high-impact idea with a functional prototype</li>
+                <li>A custom optimization or ML model that fits your business logic, not off-the-shelf templates</li>
+                <li>Senior-level delivery without long onboarding or coordination overhead</li>
+                <li>Clear handover, documentation, and collaboration with internal teams</li>
+               </ul>
+              <p class="description mt-4 leading-relaxed">
+                Projects typically last 2–8 weeks, with a fixed scope and clear deliverables — but always built to extend or evolve later if needed.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Embedded Collaboration -->
+        <div class="relative">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="bg-primary/10 text-primary flex h-12 w-12 items-center justify-center rounded-xl">
+                <Icon name="tabler/goal" class="h-6 w-6" />
+              </div>
+            </div>
+            <div class="flex-1">
+              <h3 class="text-primary mb-4 text-2xl font-semibold">Embedded Collaboration</h3>
+              <p class="description mb-4 text-base font-medium opacity-80">
+                When modeling is a core part of the business — and the questions are too complex for packaged solutions.
+              </p>
+              <p class="description mb-4 leading-relaxed">
+                We join your team part-time or full-time, providing senior expertise across ML, optimization, and decision system design. We help define roadmaps, design and implement models, guide infrastructure decisions, and work directly with business stakeholders to align model behavior with real-world priorities.
+              </p>
+             <p class="description leading-relaxed">
+            Embedded work is ideal if you're:
+            </p>
+            <ul class="description list-disc list-inside mt-4 space-y-2">
+                <li>Building a long-term planning tool, resource allocator, or dynamic pricing engine</li>
+                <li>Developing ML systems with complex constraints or needing interpretable decisions</li>
+                <li>Scaling a data function and want deep modeling experience without hiring full-time</li>
+                <li>Needing a bridge between business, product, and technical teams</li>
+            </ul>
+              <p class="description mt-4 leading-relaxed">
+                We work as an integrated part of your team — providing senior modeling expertise with the continuity of an internal role and the flexibility of external support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <ContactSection />
+    </main>
+</BaseLayout>

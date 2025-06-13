@@ -1,0 +1,230 @@
+{
+	"diplomas": [
+		{
+			"title": "Master's in Operations & Logistics",
+			"school": "Eindhoven University of Technology",
+			"year": 2019
+		},
+		{
+			"title": "Bachelor's in Industrial Engineering",
+			"school": "Eindhoven University of Technology",
+			"year": 2017
+		}
+	],
+	"experience": [
+		{
+			"title": "Principal Data Scientist",
+			"company": "British Airways",
+			"companyImage": "./index/experience/0/companyImage.png",
+			"dates": "Feb 2025 - Present",
+			"location": "London, UK",
+			"responsibilities": [
+				"Driving data-driven product insights and optimizations to enhance passenger experience and operational efficiency across key airline services",
+				"Developing and deploying machine learning and optimization models to improve flight scheduling, network capacity planning, and overall operational efficiency",
+				"Collaborating cross-functionally with product, engineering, and business teams to translate complex data into actionable recommendations and support strategic decision-making",
+				"Leading the end-to-end analytics lifecycle, from data extraction and feature engineering to model validation, business impact measurement, and clear communication of findings to stakeholders"
+			]
+		},
+		{
+			"title": "Senior Data Scientist",
+			"company": "The HEINEKEN Company",
+			"companyImage": "./index/experience/1/companyImage.png",
+			"dates": "Nov 2022 - Feb 2025",
+			"location": "Amsterdam, NL",
+			"responsibilities": [
+				"Primary global expert on optimization, shaping strategy and driving new initiatives to improve company-wide optimizer performance",
+				"Launched and scaled three optimizers from concept to production, leading algorithm development and cross-team collaboration",
+				"Led global, high-impact ML and mathematical optimization projects with BCG, delivering measurable business value aligned to strategic goals",
+				"Defined project roadmaps, hired and mentored team members to build technical expertise and a high-performance culture"
+			]
+		},
+		{
+			"title": "Machine Learning Engineer",
+			"company": "XOMNIA",
+			"companyImage": "./index/experience/2/companyImage.png",
+			"dates": "Nov 2021 - Nov 2022",
+			"location": "Amsterdam, NL",
+			"responsibilities": [
+				"Architected a scalable data platform for a leading global brand, drastically enhancing data accessibility and processing efficiency across the entire organization",
+				"Designed and deployed advanced machine learning models for a leading FMCG client, contributing to data-driven decision-making and business impact"
+			]
+		},
+		{
+			"title": "Operations Research Consultant",
+			"company": "KLM Royal Dutch Airlines",
+			"companyImage": "./index/experience/3/companyImage.png",
+			"dates": "Jun 2019 - Nov 2021",
+			"location": "Amsterdam, NL",
+			"responsibilities": [
+				"Led algorithmic design and development for multiple groundbreaking decision support tools as part of the KLM-BCG partnership, optimizing operational efficiency and decision accuracy",
+				"Co-developed digital transformation initiatives with stakeholders, aligning tool roadmaps with long-term organizational goals",
+				"Ensured high quality and stability in software products, ensuring robust performance and scalability for end-users",
+				"Drove user adoption through continuous collaboration and feedback loops, fostering strong relationships with end-users and ensuring the tools met their evolving needs"
+			]
+		}
+	],
+	"hardSkills": [
+		{
+			"skill": "Mathematical Optimization",
+			"percentage": 95
+		},
+		{
+			"skill": "Machine Learning & AI",
+			"percentage": 90
+		},
+		{
+			"skill": "Software Engineering",
+			"percentage": 85
+		}
+	],
+	"softSkills": [
+		{
+			"skill": "Leadership",
+			"icon": "👑"
+		},
+		{
+			"skill": "Communication",
+			"icon": "🗣️"
+		},
+		{
+			"skill": "Problem Solving",
+			"icon": "🧩"
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"level": 9
+		},
+		{
+			"language": "Spanish",
+			"level": 7
+		},
+		{
+			"language": "Dutch",
+			"level": 10
+		}
+	],
+	"tools": [
+		{
+			"name": "Docker",
+			"category": "DevOps",
+			"image": "./index/tools/1/image.png",
+			"link": "https://docker.com"
+		},
+		{
+			"name": "Dagster",
+			"category": "Data & Cloud",
+			"image": "./index/tools/2/image.png",
+			"link": "https://dagster.io"
+		},
+		{
+			"name": "PyTorch",
+			"category": "Machine Learning",
+			"image": "./index/tools/3/image.png",
+			"link": "https://pytorch.org"
+		},
+		{
+			"name": "Gurobi",
+			"category": "Optimization",
+			"image": "./index/tools/4/image.png",
+			"link": "https://www.gurobi.com"
+		},
+		{
+			"name": "Apache Spark",
+			"category": "Data & Cloud",
+			"image": "./index/tools/5/image.png",
+			"link": "https://spark.apache.org"
+		},
+		{
+			"name": "DGL",
+			"category": "Machine Learning",
+			"image": "./index/tools/6/image.png",
+			"link": "https://www.dgl.ai"
+		},
+		{
+			"name": "AWS",
+			"category": "Data & Cloud",
+			"image": "./index/tools/7/image.png",
+			"link": "https://aws.amazon.com"
+		},
+		{
+			"name": "Azure",
+			"category": "Data & Cloud",
+			"image": "./index/tools/8/image.jpg",
+			"link": "https://azure.microsoft.com"
+		},
+		{
+			"name": "Databricks",
+			"category": "Data & Cloud",
+			"image": "./index/tools/9/image.png",
+			"link": "https://databricks.com"
+		},
+		{
+			"name": "Great Expectations",
+			"category": "Data & Cloud",
+			"image": "./index/tools/10/image.png",
+			"link": "https://greatexpectations.io"
+		},
+		{
+			"name": "GraphQL",
+			"category": "Data & Cloud",
+			"image": "./index/tools/11/image.png",
+			"link": "https://graphql.org"
+		},
+		{
+			"name": "PostgreSQL",
+			"category": "Data & Cloud",
+			"image": "./index/tools/12/image.png",
+			"link": "https://www.postgresql.org"
+		},
+		{
+			"name": "TensorFlow",
+			"category": "Machine Learning",
+			"image": "./index/tools/13/image.png",
+			"link": "https://www.tensorflow.org"
+		},
+		{
+			"name": "Pyomo",
+			"category": "Optimization",
+			"image": "./index/tools/14/image.png",
+			"link": "https://pyomo.org"
+		},
+		{
+			"name": "Airflow",
+			"category": "Data & Cloud",
+			"image": "./index/tools/15/image.png",
+			"link": "https://airflow.apache.org"	
+		},
+		{
+			"name": "FastAPI",
+			"category": "Web Development",
+			"image": "./index/tools/16/image.png",
+			"link": "https://fastapi.tiangolo.com"
+		},
+		{
+			"name": "MLFlow",
+			"category": "Machine Learning",
+			"image": "./index/tools/17/image.png",
+			"link": "https://mlflow.org"		
+		},
+		{
+			"name": "OR-Tools",
+			"category": "Optimization",
+			"image": "./index/tools/18/image.png",
+			"link": "https://developers.google.com/optimization"
+		},
+		{
+			"name": "Scikit-learn",
+			"category": "Machine Learning",
+			"image": "./index/tools/19/image.png",
+			"link": "https://scikit-learn.org"		
+		},
+		{
+			"name": "HiGHs",
+			"category": "Optimization",
+			"image": "./index/tools/20/image.png",
+			"link": "https://highs.dev"
+		}
+	]
+}
