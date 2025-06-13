@@ -13,19 +13,19 @@ import { type navItem } from "../types/configDataTypes";
 const navConfig: navItem[] = [
 	{
 		text: "Projects",
-		link: "/projects/",
+		link: "/optiml-website/projects/",
 	},
 	{
 		text: "Services",
-		link: "/services/",
+		link: "/optiml-website/services/",
 	},
 	{
 		text: "Blog",
-		link: "/blog/",
+		link: "/optiml-website/blog/",
 	},
 	{
 		text: "Resume",
-		link: "/resume/",
+		link: "/optiml-website/resume/",
 	},
 	// uncomment below to add a dropdown example
 	// {

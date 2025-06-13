@@ -19,7 +19,7 @@ const currLocale = getLocaleFromUrl(Astro.url);
 {
 	category && (
 		<a
-			href={getLocalizedRoute(currLocale, `/categories/${slugify(category)}/`)}
+			href={getLocalizedRoute(currLocale, `/optiml-website/categories/${slugify(category)}/`)}
 			class:list={[
 				"rounded-full px-3 py-1 text-sm",
 				"transition-colors",
