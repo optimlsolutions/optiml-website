@@ -64,7 +64,6 @@ const projectsCollection = defineCollection({
 			technologies: z.array(z.string()),
 			demoUrl: z.string().url().optional(),
 			githubUrl: z.string().url().optional(),
-			completionDate: z.date(),
 			keyFeatures: z.array(z.string()),
 			order: z.number().optional(),
 			mappingKey: z.string().optional(),

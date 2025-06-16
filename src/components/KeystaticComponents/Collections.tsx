@@ -241,7 +241,7 @@ const Projects = (locale: (typeof locales)[number]) =>
 		label: `Projects (${locale.toUpperCase()})`,
 		slugField: "title",
 		path: `src/data/projects/${locale}/*/`,
-		columns: ["title", "completionDate"],
+		columns: ["title"],
 		entryLayout: "content",
 		format: { contentField: "content" },
 		schema: {
@@ -273,10 +273,6 @@ const Projects = (locale: (typeof locales)[number]) =>
 			githubUrl: fields.url({
 				label: "GitHub URL",
 				description: "Link to GitHub repository",
-			}),
-			completionDate: fields.date({
-				label: "Completion Date",
-				validation: { isRequired: true },
 			}),
 			keyFeatures: fields.array(fields.text({ label: "Feature" }), {
 				label: "Key Features",
